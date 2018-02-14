@@ -1,0 +1,1 @@
+already built war can be used for tests instead of building the project

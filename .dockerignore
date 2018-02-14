@@ -1,0 +1,7 @@
+pom.xml
+*.iml
+src
+target/*
+!target/*.war
+/.idea/
+/readme.txt
