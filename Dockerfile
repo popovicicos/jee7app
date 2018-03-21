@@ -9,5 +9,5 @@ RUN chgrp -R 0 /opt/payara41 && \
     find /opt/payara41 -type d -exec chmod g+x {} +
 USER payara
 
-COPY ./target/*.war ${DEPLOY_DIR}
+COPY ./alreadybuilt/*.war ${DEPLOY_DIR}
 
