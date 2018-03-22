@@ -10,4 +10,4 @@ RUN chgrp -R 0 /opt/payara41 && \
 USER payara
 
 COPY ./alreadybuilt/*.war ${DEPLOY_DIR}
-
+#COPY ./target/*.war ${DEPLOY_DIR}
