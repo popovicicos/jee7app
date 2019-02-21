@@ -12,6 +12,6 @@ public class StatusResource {
   @Path("ping")
   public Response check(){
     Logger.getLogger( getClass().getName() ).info("ping");
-    return Response.ok().entity("pong").build();
+    return Response.ok().entity("pong back").build();
   }
 }
